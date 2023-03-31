@@ -9,13 +9,8 @@ De forma a compilar e consequentemente executar o programa são necessários vá
 - Intalação da Livraria **[Pygame](https://www.pygame.org/wiki/GettingStarted)**
 - Versão do Python compatível com a livraria **Pygame**
 
-## Compilação
-De forma a compilar o programa, basta executar o seguinte comando no seu terminal:
-
-``` COMANDO ```
-
-## Execução
-Para executar este programa será necessário executar o seguinte comando no terminal:
+## Compilação e Execução
+De forma a compilar e executar o programa, basta executar o seguinte comando no seu terminal:
 
 ``` python3 -m Game.py ```
 
