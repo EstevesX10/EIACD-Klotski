@@ -6,7 +6,7 @@ Este jogo dispõe de vários níveis de dificuldade de forma a estimular o jogad
 
 ## Pré-Requesitos
 De forma a compilar e executar o programa são necessários vários pré-requesitos:
-- Intalação da Livraria **[Pygame](https://www.pygame.org/wiki/GettingStarted)**
+- Instalação da Livraria **[Pygame](https://www.pygame.org/wiki/GettingStarted)**
 - Versão do Python compatível com a livraria **Pygame**
 
 ## Compilação e Execução
@@ -34,6 +34,3 @@ Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes 
 <div align="center">
     <img src="/Images_Read_Me/Level_Buttons.png">
 </div>
-
-## Direitos de Autor
-EU SEI LÁ
