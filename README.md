@@ -15,6 +15,7 @@ De forma a compilar o programa, basta executar o seguinte comando no seu termina
 
 ## Execução
 Para executar este programa será necessário executar o seguinte comando no terminal:
+
 ``` python3 -m Game.py ```
 
 ## Interface Gráfica
