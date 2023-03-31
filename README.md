@@ -30,6 +30,7 @@ Os Níveís para além se poderem ser resolvidos por parte do utilizador, estes 
 - Dar ***'reset'*** ao nível (isto é, voltar à configuração inicial) pressionado o respetivo botão (localizado à **direita** do botão **'Home'**)
 - Resolução do Nível com recurso a um algoritmo de Pesquisa (**'A* Algorithm'**). Deste modo, basta pressionar o botão à direita do botão ***'Reset'***
 - Visualizar a Eficiência de vários algoritmos de Pesquisa (através do **tempo**, **nós explorados** e da **quantidade de passos até alcançar a solução**) na resolução do nível atual. Para tal, bastará pressionar o botão presente no canto inferior direito.
+![Botões](/Images_Read_Me/Level_Buttons.png)
 
 ## Direitos de Autor
 EU SEI LÁ
