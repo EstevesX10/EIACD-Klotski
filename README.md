@@ -19,7 +19,7 @@ Para executar este programa será necessário executar o seguinte comando no ter
 ## Interface Gráfica
 Esta Implementação em Python do Jogo 'Klotski' apresenta vários menus, níveis e configurações modificáveis tendo em conta o interesse do utilizador.
 ### Menu's
-Deste modo, existem 3 Menus:
+Existem 3 Menus:
 - ***Main Menu*** (Ecrã Inicial do Jogo)
 - ***Modes Menu*** (Permite a escolha entre duas dificuldades de Níveis: ***Easy*** e ***Hard***)
 - ***Options Menu*** (Contém informações sobre como jogar e possíveis alterações dos algoritmos a testar nos níveis)
