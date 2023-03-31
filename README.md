@@ -27,9 +27,9 @@ Existem 3 Menus:
 ### Níveis
 Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes apresentam outras funcionalidades:
 - Regressar à escolha de nível através do butão ***Home*** (**botão 1**).
-- Dar ***reset*** ao nível (isto é, voltar à configuração inicial) pressionado o respetivo botão (**botão 2**).
-- Resolução do Nível com recurso a um algoritmo de Pesquisa (**A* Algorithm**). Deste modo, basta pressionar o **botão 3**.
-- Visualizar a Eficiência de vários algoritmos de Pesquisa (através do **tempo**, **quantidade de nós explorados** e de **passos até alcançar a solução**) na resolução do nível atual. Para tal, bastará pressionar o **botão 4**.
+- Dar ***reset*** ao nível (isto é, voltar à configuração inicial do nível) pressionado o respetivo botão (**botão 2**).
+- Resolução do Nível com recurso a um Algoritmo de Pesquisa (**A* Algorithm**) através do **botão 3**.
+- Visualizar a Eficiência de vários Algoritmos de Pesquisa (através do **tempo**, **quantidade de nós explorados** e de **passos até alcançar a solução**) na resolução do nível atual. Para tal, bastará pressionar o **botão 4**.
 
 <div align="center">
     <img src="/Images_Read_Me/Level_Buttons.png">
