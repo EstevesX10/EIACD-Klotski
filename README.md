@@ -10,6 +10,7 @@ De forma a compilar e consequentemente executar o programa são necessários vá
 
 ## Compilação
 De forma a compilar o programa, basta executar o seguinte comando no seu terminal:
+
 ``` COMANDO ```
 
 ## Execução
