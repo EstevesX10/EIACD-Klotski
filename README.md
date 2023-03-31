@@ -17,7 +17,7 @@ Para executar este programa será necessário executar o seguinte comando no ter
 ``` python3 -m Game.py ```
 
 ## Interface Gráfica
-Esta Implementação em Python do Jogo 'Klotski' apresenta vários menus, níveis e configurações modificáveis tendo em conta o interesse do utilizador.
+Esta Implementação em Python do **Jogo *Klotski*** apresenta vários menus, níveis e configurações modificáveis tendo em conta o interesse do utilizador.
 ### Menu's
 Existem 3 Menus:
 - ***Main Menu*** (Ecrã Inicial do Jogo)
