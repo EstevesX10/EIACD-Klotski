@@ -14,7 +14,7 @@ De forma a compilar o programa, basta executar o seguinte comando no seu termina
 
 ## Execução
 Para executar este programa será necessário executar o seguinte comando no terminal:
-``` COMANDO ```
+``` python3 -m Game.py ```
 
 ## Interface Gráfica
 Esta Implementação em Python do Jogo 'Klotski' apresenta vários menus, níveis e configurações modificáveis tendo em conta o interesse do utilizador.
