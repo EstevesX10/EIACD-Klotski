@@ -5,7 +5,7 @@ QUICK INTRO
 
 ## Pré-Requisitos
 De forma a compilar e consequentemente executar o programa são necessários vários pré-requesitos:
-- Intalação da Livraria **'Pygame'**
+- Intalação da Livraria **[Pygame](https://www.pygame.org/wiki/GettingStarted)**
 - Instalação de uma versão do Python compatível com a livraria **'Pygame'**
 
 ## Compilação
