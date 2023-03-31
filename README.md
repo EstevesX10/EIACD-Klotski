@@ -1,11 +1,11 @@
 # Klotski's Implementation with Python
 
 ## Introdução
-**Klotski** trata-se de um jogo de quebra-cabeças que envolve mover uma ou mais peças num tabuleiro (5x4) de forma a alcançar um determinado objetivo. Neste jogo, o objetivo é mover a peça vermelha ao longo do tabuleiro até alcançar uma respetiva posição final. Mais ainda, as peças podem apresentar tanto um formato como um tamanho variáveis, aumentando, assim, a quantidade de possíveis configurações para o tabuleiro.
-Este jogo dispõe de vários níveis de dificuldade de forma a estimular o jogador e consequentemente proporcionar uma experiência mais desafiante.
+**Klotski** trata-se de um jogo de quebra-cabeças que envolve mover uma ou mais peças num tabuleiro (5x4) de forma a alcançar um objetivo. Neste jogo, o objetivo é mover a peça vermelha ao longo do tabuleiro até alcançar a sua respetiva posição final. Mais ainda, as peças podem apresentar tanto um formato como um tamanho variáveis, aumentando, assim, a quantidade de configurações possíveis para o tabuleiro.
+Este jogo dispõe de vários níveis de dificuldade de forma a estimular o jogador e simultaneamente proporcionar uma experiência mais desafiante.
 
 ## Pré-Requesitos
-De forma a compilar e consequentemente executar o programa são necessários vários pré-requesitos:
+De forma a compilar e executar o programa são necessários vários pré-requesitos:
 - Intalação da Livraria **[Pygame](https://www.pygame.org/wiki/GettingStarted)**
 - Versão do Python compatível com a livraria **Pygame**
 
@@ -15,12 +15,14 @@ De forma a compilar e executar o programa, basta executar o seguinte comando no 
 ``` python3 -m Game.py ```
 
 ## Interface Gráfica
-Esta Implementação em Python do **Jogo *Klotski*** apresenta vários menus, níveis e configurações modificáveis tendo em conta o interesse do utilizador.
+A Implementação em Python do **Jogo *Klotski*** dispõe de uma Interface Gráfica.
+Esta apresenta vários menus, níveis e configurações modificáveis tendo em atenção o interesse do utilizador.
+
 ### Menu's
 Existem 3 Menus:
 - ***Main Menu*** (Ecrã Inicial do Jogo)
 - ***Modes Menu*** (Permite a escolha entre duas dificuldades de Níveis: ***Easy*** e ***Hard***)
-- ***Options Menu*** (Contém informações sobre o jogo bem como possíveis alterações nos algoritmos a testar)
+- ***Options Menu*** (Contém informações sobre o jogo e de possíveis alterações dos algoritmos a testar)
 
 ### Níveis
 Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes apresentam outras funcionalidades:
