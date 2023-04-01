@@ -35,6 +35,6 @@ Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes 
     <img src="/Images_Read_Me/Level_Buttons.png">
 </div>
 
-### Considerações Finais
+## Considerações Finais
 Caso exista alguma dificuldade no download ou execução dos ficheiros não exite em contactar-nos:
-- Via email: xxx
+- Via email: up202203947@fc.up.pt
