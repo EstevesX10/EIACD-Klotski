@@ -19,7 +19,7 @@ Se o problema se mantiver, tente executar o seguinte comando no seu terminal:
  
  ``` python3 -m Game.py ```
  
- Por fim, se o erro persistir não exite em **[contactar-nos](#considerações-finais)**.
+ Por fim, se o erro persistir não hesite em **[contactar-nos](#considerações-finais)**.
 
 ## Interface Gráfica
 A Implementação (em Python) do **Jogo *Klotski*** elaborada dispõe de uma Interface Gráfica.
@@ -43,7 +43,7 @@ Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes 
 </div>
 
 ## Considerações Finais
-Se existir alguma **dificuldade** no download ou execução dos ficheiros não exite em contactar-nos:
+Se existir alguma **dificuldade** no download ou execução dos ficheiros não hesite em contactar-nos:
 - **Via email**: 
     - Gonçalo Esteves: up202203947@up.pt 
     - Mariana Gomes: up202206615@up.pt
