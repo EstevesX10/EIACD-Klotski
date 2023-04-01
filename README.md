@@ -15,8 +15,8 @@ De forma a compilar e executar o programa, basta executar o seguinte comando no 
 ``` python3 -m Game.py ```
 
 ## Interface Gráfica
-A Implementação em Python do **Jogo *Klotski*** dispõe de uma Interface Gráfica.
-Esta apresenta vários menus, níveis e configurações modificáveis atendendo ao interesse do utilizador.
+A Implementação (em Python) do **Jogo *Klotski*** elaborada dispõe de uma Interface Gráfica.
+Nesta existem vários menus, níveis e configurações modificáveis atendendo às necessidades e interesse do utilizador.
 
 ### Menu's
 Existem 3 Menus:
