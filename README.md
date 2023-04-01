@@ -1,8 +1,8 @@
 # Klotski's Implementation with Python
 
 ## Introdução
-O **Klotski** trata-se de um jogo de quebra-cabeças que envolve mover uma ou mais peças num tabuleiro (5x4) de forma a alcançar um objetivo. Neste jogo, o objetivo é mover a peça vermelha ao longo do tabuleiro até alcançar a sua respetiva posição final. Mais ainda, as peças podem apresentar tanto um formato como um tamanho variáveis, aumentando, assim, a quantidade de configurações possíveis para o tabuleiro.
-Este jogo dispõe de vários níveis de dificuldade de forma a estimular o jogador e simultaneamente proporcionar uma experiência mais desafiante.
+O **Klotski** trata-se de um jogo de quebra-cabeças que envolve mover uma ou mais peças num tabuleiro (5x4) de forma a alcançar um objetivo. Neste jogo, o objetivo é mover a peça vermelha ao longo do tabuleiro até alcançar a sua posição final. As peças podem apresentar tanto um formato como um tamanho variáveis, dispondo, assim, de  imensas configurações possíveis para o tabuleiro.
+Por fim, este jogo dispõe de vários níveis de dificuldade de forma a estimular o jogador e simultaneamente proporcionar uma experiência mais desafiante.
 
 ## Pré-Requesitos
 De forma a compilar e executar o programa são necessários vários pré-requesitos:
