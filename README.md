@@ -14,7 +14,7 @@ De forma a compilar e executar o programa, basta executar o seguinte comando no 
 
  ```python Game.py```
  
-Caso não funcione, verifique que possui todos os pré-requisitos mencionados **[anteriormente](##pre-requesitos)** e tente novamente. 
+Caso não funcione, verifique que possui todos os pré-requisitos mencionados **[anteriormente](##Pré-Requesitos)** e tente novamente. 
 
 Se o problema se mantiver, tente executar o seguinte comando no seu terminal:
  
