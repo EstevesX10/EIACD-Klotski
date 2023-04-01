@@ -36,7 +36,7 @@ Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes 
 </div>
 
 ## Considerações Finais
-Se existir alguma dificuldade no download ou execução dos ficheiros não exite em contactar-nos:
-- Via email: 
-    - Gonçalo Esteves, up202203947@up.pt 
-    - Mariana Gomes, up202206615@up.pt
+Se existir alguma **dificuldade** no download ou execução dos ficheiros não exite em contactar-nos:
+- **Via email**: 
+    - Gonçalo Esteves: up202203947@up.pt 
+    - Mariana Gomes: up202206615@up.pt
