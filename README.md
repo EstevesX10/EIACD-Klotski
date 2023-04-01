@@ -37,4 +37,4 @@ Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes 
 
 ## Considerações Finais
 Caso exista alguma dificuldade no download ou execução dos ficheiros não exite em contactar-nos:
-- Via email: up202203947@fc.up.pt
+- Via email: up202203947@up.pt
