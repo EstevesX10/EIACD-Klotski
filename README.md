@@ -20,7 +20,7 @@ Se o problema se mantiver, tente executar o seguinte comando no seu terminal:
  
  ``` python3 -m Game.py ```
  
- Por fim, se o erro persistir não exite em **[contactar-nos](##considerações-finais)**.
+ Por fim, se o erro persistir não exite em **[contactar-nos](##Considerações-Finais)**.
 
 ## Interface Gráfica
 A Implementação (em Python) do **Jogo *Klotski*** elaborada dispõe de uma Interface Gráfica.
