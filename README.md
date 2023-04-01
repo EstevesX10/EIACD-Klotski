@@ -14,13 +14,13 @@ De forma a compilar e executar o programa, basta executar o seguinte comando no 
 
  ```python Game.py```
  
-Caso não funcione, verifique que possui todos os pré-requisitos mencionados anteriormente e tente novamente. 
+Caso não funcione, verifique que possui todos os pré-requisitos mencionados **[anteriormente](##pre-requesitos)** e tente novamente. 
 
 Se o problema se mantiver, tente executar o seguinte comando no seu terminal:
  
  ``` python3 -m Game.py ```
  
- Por fim, se o erro persistir não exite em contactar-nos.
+ Por fim, se o erro persistir não exite em **[contactar-nos](##considerações-finais)**.
 
 ## Interface Gráfica
 A Implementação (em Python) do **Jogo *Klotski*** elaborada dispõe de uma Interface Gráfica.
