@@ -36,6 +36,5 @@ Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes 
 </div>
 
 ### Considerações Finais
-Caso exista alguma dificuldade no download ou execução dos ficheiros não exite em contactar-me:
+Caso exista alguma dificuldade no download ou execução dos ficheiros não exite em contactar-nos:
 - Via email: xxx
-- Via Github: 
