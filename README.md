@@ -12,7 +12,15 @@ De forma a compilar e executar o programa são necessários vários pré-requesi
 ## Compilação e Execução
 De forma a compilar e executar o programa, basta executar o seguinte comando no seu terminal: 
 
-``` python3 -m Game.py ```
+ ```python Game.py```
+ 
+Caso não funcione, verifique que possui todos os pré-requisitos mencionados anteriormente e tente novamente. 
+
+Se o problema se mantiver, tente executar o seguinte comando no seu terminal:
+ 
+ ``` python3 -m Game.py ```
+ 
+ Por fim, se o erro persistir não exite em contactar-nos.
 
 ## Interface Gráfica
 A Implementação (em Python) do **Jogo *Klotski*** elaborada dispõe de uma Interface Gráfica.
