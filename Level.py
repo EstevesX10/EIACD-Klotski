@@ -32,12 +32,14 @@ class Level:
         self.matrix = [[0]*N_COLS for _ in range(N_ROWS)]
         self.moves = {"Up":(-1,0), "Down":(1,0), "Left":(0,-1), "Right":(0,1)}
         
+        # Parameters to save all the pieces and the objective
         self.red = Red_Squares
         self.others = Other_Squares
         self.objective = Objective
         self.objective.sort()
         
         self.completed = self.Is_Over()
+        # In order to save the times, steps to the solution and nodes explored of all the search algorithms
         self.Tests = Tests
         self.Times = [0,0,0,0,0,0]
         self.Steps = [0,0,0,0,0,0]
@@ -350,7 +352,7 @@ class Level:
         return Res_Nodes
 
     def Show_Solution(self, Node, screen):
-        ''' Solves the Problem with a graphical application '''
+        ''' Solves the Problem within the graphical application '''
         Res_Nodes = self.Get_Solution(Node)
         for node in Res_Nodes:
             self.red = node.state.red
@@ -367,14 +369,10 @@ class Level:
         
         return True
 
-    def Solve_It(self, screen): # Has Comments
-        start = time.time()
+    def Solve_It(self, screen):
+        ''' Solves the Level with a certain search algorithm '''
         # goal, nodes = A_Star_Search_Node(self, h1)
-        goal, nodes = A_Star_Search_Node(self, h2)
-        end = time.time()
-        
-        print(f"DEMOROU {end-start}s")
-        print(f"NODES EXPLORED: {nodes}")
+        goal, nodes = A_Star_Search_Node(self, h2)        
         self.Show_Solution(goal, screen)
         return True
 
@@ -634,6 +632,7 @@ def Limited_Iterative_Deepening_Node(initial_state:Level, Depth_limit:int):
     # Para obter uma Iterative Deepening bastaria considerar a Profundidade Limite igual a infinito
     current_depth = 1
     nodes_explored = 0
+
     while current_depth < Depth_limit:
         root = TreeNode(initial_state, None)
         stack = [root]
@@ -649,10 +648,13 @@ def Limited_Iterative_Deepening_Node(initial_state:Level, Depth_limit:int):
 
             nodes_explored += 1
 
+            # De forma a inserir os nós de forma correta usou-se uma variável auxiliar 'i'
+            i = 0
             for new_state in current.state.New_States():
                 if new_state not in visited:
                     child = TreeNode(new_state, current)
-                    stack.insert(0,child)  
+                    stack.insert(i,child)
+                    i+=1
 
         current_depth += 1
     return None, None
