@@ -1,7 +1,14 @@
-import pygame
-from Constants import *
-from Button import *
+from Button import Button
 from Level import *
+from Constants import (
+    WIDTH,
+    HEIGHT,
+    BLACK,
+    BLUE,
+    WHITE,
+)
+
+import pygame
 
 ''' Game Interface '''
 class Game:
