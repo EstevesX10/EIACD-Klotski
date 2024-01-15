@@ -1,4 +1,6 @@
-# Klotski's Implementation with Python
+<div align="center">
+    <h1>Klotski's Implementation [Python]</h1>
+</div>
 
 <p align="center" width="100%">
     <img src="/Klotski/Assets/README/Klotski_README.gif" width="15%" height="10%" />
