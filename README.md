@@ -1,7 +1,7 @@
 # Klotski's Implementation with Python
 
-<p align="center" width="2%">
-    <img src="/Klotski/Assets/README/Klotski_README.gif"/>
+<p align="center" width="100%">
+    <img src="/Klotski/Assets/README/Klotski_README.gif" width="15%" height="10%" />
 </p>
 
 ## Introdução
