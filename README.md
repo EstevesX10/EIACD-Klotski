@@ -39,7 +39,7 @@ Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes 
 - Visualizar a Eficiência de vários Algoritmos de Pesquisa (através do **tempo**, **quantidade de nós explorados** e de **passos até alcançar a solução**) na resolução do nível atual. Para tal, bastará pressionar o **botão 4**.
 
 <div align="center">
-    <img src="Images_Read_Me/Level_Buttons.png">
+    <img src="Klotski/Assets/README/Level_Buttons.png">
 </div>
 
 ## Considerações Finais
