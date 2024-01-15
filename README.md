@@ -18,13 +18,17 @@ De forma a compilar e executar o programa são necessários vários pré-requiit
 ## Compilação e Execução
 De forma a compilar e executar o programa, basta executar o seguinte comando no seu terminal: 
 
- ```python Game.py```
+```
+python Game.py
+```
  
 Caso não funcione, verifique que possui todos os pré-requisitos mencionados **[anteriormente](#pré-requisitos)** e tente novamente. 
 Se o problema se mantiver, tente executar o seguinte comando no seu terminal:
  
- ``` python3 -m Game.py ```
- 
+```
+python3 -m Game.py
+```
+
  Por fim, se o erro persistir não hesite em **[contactar-nos](#considerações-finais)**.
 
 ## Interface Gráfica
