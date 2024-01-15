@@ -54,8 +54,8 @@ Existem **3 Menus**:
 Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes apresentam outras funcionalidades:
 - Regressar à escolha de nível através do butão ***Home*** (**botão 1**).
 - Dar ***reset*** ao nível (isto é, voltar à configuração inicial do nível) pressionado o respetivo botão (**botão 2**).
-- Resolução do Nível com recurso a um Algoritmo de Pesquisa (__A* Algorithm__) através do **botão 3**.
-- Visualizar a Eficiência de vários Algoritmos de Pesquisa (através do **tempo**, **quantidade de nós explorados** e de **passos até alcançar a solução**) na resolução do nível atual. Para tal, bastará pressionar o **botão 4**.
+- Resolução do Nível com recurso a um Algoritmo de Pesquisa (__*A** Algorithm__) através do **botão 3**.
+- Visualizar a **Eficiência** de vários Algoritmos de Pesquisa (através do **tempo**, **quantidade de nós explorados** e de **passos até alcançar a solução**) na resolução do nível atual. Para tal, bastará pressionar o **botão 4**.
 
 <br/>
 
