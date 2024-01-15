@@ -7,15 +7,16 @@
 </p>
 
 ## Introdução
-O **Klotski** trata-se de um jogo de quebra-cabeças que envolve mover uma ou mais peças num tabuleiro (5x4) de forma a alcançar um objetivo. Neste jogo, o objetivo é mover a **peça vermelha** ao longo do tabuleiro até alcançar a sua posição final. As peças podem apresentar tanto um formato como um tamanho variáveis, dispondo, assim, de  imensas configurações possíveis para o tabuleiro.
+O **Klotski** trata-se de um jogo de quebra-cabeças que envolve mover uma ou mais peças num tabuleiro (5x4) de forma a alcançar um objetivo. Neste jogo, o objetivo é mover a **peça vermelha** ao longo do tabuleiro até alcançar a sua posição final. As peças podem apresentar tanto um formato como um tamanho variáveis, dispondo, assim, de  imensas **configurações** possíveis para o tabuleiro.
+
 Por fim, este jogo dispõe de vários **níveis de dificuldade** de forma a estimular o jogador e simultaneamente proporcionar uma experiência mais desafiante.
 
 ## Pré-Requisitos
 De forma a compilar e executar o programa são necessários vários pré-requiitos:
-- **[Python [ Versão compatível com a livrarias utilizadas]](#python3-e-pip)**
+- **[Python & Pip](#python-e-pip)**
 - **[Instalação de Bibliotecas](#instalação-de-bibliotecas)**
 
-### Python3 e Pip 
+### Python e Pip 
 
 Caso não tenha o Python 3 ou o Gestor de Pacotes pip instalados, pode fazê-lo [em **Ubuntu**] através do comando:
 
@@ -23,12 +24,12 @@ Caso não tenha o Python 3 ou o Gestor de Pacotes pip instalados, pode fazê-lo 
 
 ### Instalação de Bibliotecas
 
-Por sua vez, deve certificar-se que tem instalado as bibliotecas necessárias (Ex: **[Pygame](https://www.pygame.org/wiki/GettingStarted)**). Para tal basta executar:
+Por sua vez, deve certificar-se que tem instalado as bibliotecas necessárias (**[Pygame](https://www.pygame.org/wiki/GettingStarted)**). Para tal basta executar:
 
     pip install -r requirements.txt
 
 ## Compilação e Execução
-Assim, de forma a compilar e executar o programa, basta executar o seguinte comando no seu terminal: 
+Assim, de forma a compilar e executar o programa, basta executar o seguinte **comando** no seu terminal:
 
     python Game.py
     
@@ -44,7 +45,7 @@ Nesta existem vários menus, níveis e configurações modificáveis atendendo �
 </div>
 
 ## Menus
-Existem 3 Menus:
+Existem **3 Menus**:
 - ***Main Menu*** (Ecrã Inicial do Jogo)
 - ***Modes Menu*** (Permite a escolha entre duas dificuldades de Níveis: ***Easy*** e ***Hard***)
 - ***Options Menu*** (Contém informações sobre o jogo e de possíveis alterações dos algoritmos a testar)
