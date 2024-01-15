@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Klotski's Implementation [Python]</h1>
+    <h1>Klotski Game [Python]</h1>
 </div>
 
 <p align="center" width="100%">
@@ -47,6 +47,8 @@ Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes 
 - Dar ***reset*** ao nível (isto é, voltar à configuração inicial do nível) pressionado o respetivo botão (**botão 2**).
 - Resolução do Nível com recurso a um Algoritmo de Pesquisa (__A* Algorithm__) através do **botão 3**.
 - Visualizar a Eficiência de vários Algoritmos de Pesquisa (através do **tempo**, **quantidade de nós explorados** e de **passos até alcançar a solução**) na resolução do nível atual. Para tal, bastará pressionar o **botão 4**.
+
+<br/>
 
 <div align="center">
     <img src="Klotski/Assets/README/Level_Buttons.png">
