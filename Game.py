@@ -25,71 +25,71 @@ class Game:
         pygame.init()
         Screen = pygame.display.set_mode((WIDTH, HEIGHT))
         pygame.display.set_caption('Klotski')
-        Icon = pygame.image.load('Images/Icon.png').convert_alpha()
+        Icon = pygame.image.load('Assets/Icon.png').convert_alpha()
         pygame.display.set_icon(Icon)
 
         ''' Main Menu '''
-        Main_Menu_IMG = pygame.image.load('Images/Klotski_BG.png').convert_alpha()
+        Main_Menu_IMG = pygame.image.load('Assets/Klotski_BG.png').convert_alpha()
         Main_Menu = Button(Main_Menu_IMG, -330,0,.75)
 
-        Start_IMG = pygame.image.load('Images/Start.png').convert_alpha()
+        Start_IMG = pygame.image.load('Assets/Start.png').convert_alpha()
         Start_Button = Button(Start_IMG, 340, 350, .55)
 
         ''' Modes Menu '''
-        Easy_IMG = pygame.image.load('Images/Easy.png').convert_alpha()
+        Easy_IMG = pygame.image.load('Assets/Easy.png').convert_alpha()
         Easy_Button = Button(Easy_IMG, 250, 160, .4)
 
-        Hard_IMG = pygame.image.load('Images/Hard.png').convert_alpha()
+        Hard_IMG = pygame.image.load('Assets/Hard.png').convert_alpha()
         Hard_Button = Button(Hard_IMG, 250, 400, .4)
 
-        Options_IMG = pygame.image.load('Images/Options.png').convert_alpha()
+        Options_IMG = pygame.image.load('Assets/Options.png').convert_alpha()
         Options_Button = Button(Options_IMG, 600, 30, .15)
 
-        Back_IMG = pygame.image.load('Images/Back.png').convert_alpha()
+        Back_IMG = pygame.image.load('Assets/Back.png').convert_alpha()
         Back_Button = Button(Back_IMG, 50, 675, .15)
 
-        Exit_IMG = pygame.image.load('Images/Exit.png').convert_alpha()
+        Exit_IMG = pygame.image.load('Assets/Exit.png').convert_alpha()
         Exit_Button = Button(Exit_IMG, 530, 650, .25)
 
         ''' Options Menu '''
-        How_To_Play_IMG = pygame.image.load('Images/How_To_Play.png').convert_alpha()
+        How_To_Play_IMG = pygame.image.load('Assets/How_To_Play.png').convert_alpha()
         How_To_Play_Button = Button(How_To_Play_IMG, 300, 130, .2)
         
-        How_To_Play_1_IMG = pygame.image.load('Images/HowToPlay_1.png').convert_alpha()
+        How_To_Play_1_IMG = pygame.image.load('Assets/HowToPlay_1.png').convert_alpha()
         How_To_Play_1 = Button(How_To_Play_1_IMG, 120, 425, .4)
-        How_To_Play_2_IMG = pygame.image.load('Images/HowToPlay_2.png').convert_alpha()
+        How_To_Play_2_IMG = pygame.image.load('Assets/HowToPlay_2.png').convert_alpha()
         How_To_Play_2 = Button(How_To_Play_2_IMG, 420, 425, .4)
-        How_To_Play_Arrow_IMG = pygame.image.load('Images/Arrow.png').convert_alpha()
+        How_To_Play_Arrow_IMG = pygame.image.load('Assets/Arrow.png').convert_alpha()
         How_To_Play_Arrow = Button(How_To_Play_Arrow_IMG, 300, 470, .2)
 
-        Algoritms_IMG = pygame.image.load('Images/Algorithms.png').convert_alpha()
+        Algoritms_IMG = pygame.image.load('Assets/Algorithms.png').convert_alpha()
         Algoritms_Button = Button(Algoritms_IMG, 300, 330, .2)
 
-        Credits_IMG = pygame.image.load('Images/Credits.png').convert_alpha()
+        Credits_IMG = pygame.image.load('Assets/Credits.png').convert_alpha()
         Credits_Button = Button(Credits_IMG, 315 , 530, .15)
 
         ''' EXTRA IMAGES '''
-        Work_IMG = pygame.image.load('Images/Work.png').convert_alpha()
+        Work_IMG = pygame.image.load('Assets/Work.png').convert_alpha()
         Work_Button = Button(Work_IMG, 480, 480, .25)
 
         ''' LEVELS IMAGES '''
-        L1_IMG = pygame.image.load('Images/Levels/1.png').convert_alpha()
-        L2_IMG = pygame.image.load('Images/Levels/2.png').convert_alpha()
-        L3_IMG = pygame.image.load('Images/Levels/3.png').convert_alpha()
-        L4_IMG = pygame.image.load('Images/Levels/4.png').convert_alpha()
-        L5_IMG = pygame.image.load('Images/Levels/5.png').convert_alpha()
-        L6_IMG = pygame.image.load('Images/Levels/6.png').convert_alpha()
-        L7_IMG = pygame.image.load('Images/Levels/7.png').convert_alpha()
-        L8_IMG = pygame.image.load('Images/Levels/8.png').convert_alpha()
+        L1_IMG = pygame.image.load('Assets/Levels/1.png').convert_alpha()
+        L2_IMG = pygame.image.load('Assets/Levels/2.png').convert_alpha()
+        L3_IMG = pygame.image.load('Assets/Levels/3.png').convert_alpha()
+        L4_IMG = pygame.image.load('Assets/Levels/4.png').convert_alpha()
+        L5_IMG = pygame.image.load('Assets/Levels/5.png').convert_alpha()
+        L6_IMG = pygame.image.load('Assets/Levels/6.png').convert_alpha()
+        L7_IMG = pygame.image.load('Assets/Levels/7.png').convert_alpha()
+        L8_IMG = pygame.image.load('Assets/Levels/8.png').convert_alpha()
 
-        L1_DONE_IMG = pygame.image.load('Images/Levels/1_Done.png')
-        L2_DONE_IMG = pygame.image.load('Images/Levels/2_Done.png')
-        L3_DONE_IMG = pygame.image.load('Images/Levels/3_Done.png')
-        L4_DONE_IMG = pygame.image.load('Images/Levels/4_Done.png')
-        L5_DONE_IMG = pygame.image.load('Images/Levels/5_Done.png')
-        L6_DONE_IMG = pygame.image.load('Images/Levels/6_Done.png')
-        L7_DONE_IMG = pygame.image.load('Images/Levels/7_Done.png')
-        L8_DONE_IMG = pygame.image.load('Images/Levels/8_Done.png')
+        L1_DONE_IMG = pygame.image.load('Assets/Levels/1_Done.png')
+        L2_DONE_IMG = pygame.image.load('Assets/Levels/2_Done.png')
+        L3_DONE_IMG = pygame.image.load('Assets/Levels/3_Done.png')
+        L4_DONE_IMG = pygame.image.load('Assets/Levels/4_Done.png')
+        L5_DONE_IMG = pygame.image.load('Assets/Levels/5_Done.png')
+        L6_DONE_IMG = pygame.image.load('Assets/Levels/6_Done.png')
+        L7_DONE_IMG = pygame.image.load('Assets/Levels/7_Done.png')
+        L8_DONE_IMG = pygame.image.load('Assets/Levels/8_Done.png')
 
         ''' Levels '''
         L1_Easy_Button = Button(L1_IMG, 60,180,.2)
@@ -111,8 +111,8 @@ class Game:
         L8_Hard_Button = Button(L8_IMG, 540,320,.2)
         
         ''' Switches '''
-        Switch_OFF_IMG = pygame.image.load('Images/Off.png').convert_alpha()
-        Switch_ON_IMG = pygame.image.load('Images/On.png').convert_alpha()
+        Switch_OFF_IMG = pygame.image.load('Assets/Off.png').convert_alpha()
+        Switch_ON_IMG = pygame.image.load('Assets/On.png').convert_alpha()
         
         Bfs_Switch = Button(Switch_OFF_IMG, 100, 230, .2)
         Itr_Deep_Switch = Button(Switch_OFF_IMG, 100, 350, .2)
