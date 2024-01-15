@@ -27,7 +27,6 @@ Nesta existem vários menus, níveis e configurações modificáveis atendendo �
 
 https://github.com/EstevesX10/EIACD-Klotski/assets/103591462/422c7307-d8e6-4623-8f92-e6031a78b952
 
-
 ### Menu's
 Existem 3 Menus:
 - ***Main Menu*** (Ecrã Inicial do Jogo)
@@ -45,8 +44,9 @@ Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes 
     <img src="Klotski/Assets/README/Level_Buttons.png">
 </div>
 
-## Considerações Finais
-Se existir alguma **dificuldade** no download ou execução dos ficheiros não hesite em contactar-nos:
+# Considerações Finais
+
+Se existir alguma **dificuldade** no download ou execução da aplicação não hesite em contactar-nos:
 - **Via email**: 
-    - Gonçalo Esteves: up202203947@up.pt 
-    - Mariana Gomes: up202206615@up.pt
+    - [Gonçalo Esteves](https://github.com/EstevesX10) - `up202203947@up.pt`
+    - [Mariana Gomes]() - `up202206615@up.pt`
