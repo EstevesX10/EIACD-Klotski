@@ -432,19 +432,19 @@ class Level:
         self.Get_Functions_Specs()
 
         ''' Buttons In Level '''
-        Home_IMG = pygame.image.load('Assets/Home.png').convert_alpha()
+        Home_IMG = pygame.image.load('Assets/Icons/Home.png').convert_alpha()
         Home_Button = Button(Home_IMG, 50, 670, .15)
 
-        Reset_ING = pygame.image.load('Assets/Reload.png').convert_alpha()
+        Reset_ING = pygame.image.load('Assets/Icons/Reload.png').convert_alpha()
         Reset_Button = Button(Reset_ING, 230, 670, .15)
 
-        Solve_IMG = pygame.image.load('Assets/Solve.png').convert_alpha()
+        Solve_IMG = pygame.image.load('Assets/Icons/Solve.png').convert_alpha()
         Solve_Button = Button(Solve_IMG, 400, 670, .15)
 
-        Analyse_IMG = pygame.image.load('Assets/Analyse.png').convert_alpha()
+        Analyse_IMG = pygame.image.load('Assets/Icons/Analyse.png').convert_alpha()
         Analyse_Button = Button(Analyse_IMG, 550, 670, .15)
 
-        Back_IMG = pygame.image.load('Assets/Back.png').convert_alpha()
+        Back_IMG = pygame.image.load('Assets/Icons/Back.png').convert_alpha()
         Back_Button = Button(Back_IMG, 50, 675, .15)
 
         ''' Run Loop '''
