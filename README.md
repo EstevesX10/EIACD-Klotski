@@ -29,13 +29,13 @@ Nesta existem vários menus, níveis e configurações modificáveis atendendo �
  <video src= "https://github.com/EstevesX10/EIACD-Klotski/assets/103591462/208d3d9d-8520-427e-97fc-c61f8ea90b62" />
 </div>
 
-### Menu's
+## Menus
 Existem 3 Menus:
 - ***Main Menu*** (Ecrã Inicial do Jogo)
 - ***Modes Menu*** (Permite a escolha entre duas dificuldades de Níveis: ***Easy*** e ***Hard***)
 - ***Options Menu*** (Contém informações sobre o jogo e de possíveis alterações dos algoritmos a testar)
 
-### Níveis
+## Níveis
 Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes apresentam outras funcionalidades:
 - Regressar à escolha de nível através do butão ***Home*** (**botão 1**).
 - Dar ***reset*** ao nível (isto é, voltar à configuração inicial do nível) pressionado o respetivo botão (**botão 2**).
@@ -51,4 +51,4 @@ Os Níveís para além de poderem ser resolvidos por parte do utilizador, estes 
 Se existir alguma **dificuldade** no download ou execução da aplicação não hesite em contactar-nos:
 - **Via email**: 
     - [Gonçalo Esteves](https://github.com/EstevesX10) - `up202203947@up.pt`
-    - [Mariana Gomes]() - `up202206615@up.pt`
+    - [Mariana Gomes](Insert_Github_Link) - `up202206615@up.pt`
