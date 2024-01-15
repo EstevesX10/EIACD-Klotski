@@ -25,11 +25,9 @@ Se o problema se mantiver, tente executar o seguinte comando no seu terminal:
 A Implementação (em Python) do **Jogo *Klotski*** elaborada dispõe de uma Interface Gráfica.
 Nesta existem vários menus, níveis e configurações modificáveis atendendo às necessidades e interesse do utilizador.
 
-
-
-https://github.com/EstevesX10/EIACD-Klotski/assets/103591462/208d3d9d-8520-427e-97fc-c61f8ea90b62
-
-
+<div align = "center">
+ <video src= "https://github.com/EstevesX10/EIACD-Klotski/assets/103591462/208d3d9d-8520-427e-97fc-c61f8ea90b62" />
+</div>
 
 ### Menu's
 Existem 3 Menus:
