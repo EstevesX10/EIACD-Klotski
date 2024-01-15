@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Klotski Game [Python]</h1>
+    <h1>EIACD | Klotski Game [Python]</h1>
 </div>
 
 <p align="center" width="100%">
