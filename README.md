@@ -1,6 +1,6 @@
 # Klotski's Implementation with Python
 
-<p align="center" width="100%">
+<p align="center" width="20%">
     <img src="/Klotski/Assets/README/Klotski_README.gif"/>
 </p>
 
