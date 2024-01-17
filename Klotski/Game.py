@@ -1,4 +1,4 @@
-from Button import (Button)
+from Button import (Button, Image)
 from Level import (Level)
 from Constants import (
     WIDTH,
@@ -30,7 +30,7 @@ class Game:
 
         ''' Main Menu '''
         Main_Menu_IMG = pygame.image.load('Assets/Icons/Klotski_BG.png').convert_alpha()
-        Main_Menu = Button(Main_Menu_IMG, -330,0,.75)
+        Main_Menu = Image(Main_Menu_IMG, -330,0,.75)
 
         Start_IMG = pygame.image.load('Assets/Icons/Start.png').convert_alpha()
         Start_Button = Button(Start_IMG, 340, 350, .55)
@@ -56,11 +56,11 @@ class Game:
         How_To_Play_Button = Button(How_To_Play_IMG, 300, 130, .2)
         
         How_To_Play_1_IMG = pygame.image.load('Assets/Icons/HowToPlay_1.png').convert_alpha()
-        How_To_Play_1 = Button(How_To_Play_1_IMG, 120, 425, .4)
+        How_To_Play_1 = Image(How_To_Play_1_IMG, 120, 425, .4)
         How_To_Play_2_IMG = pygame.image.load('Assets/Icons/HowToPlay_2.png').convert_alpha()
-        How_To_Play_2 = Button(How_To_Play_2_IMG, 420, 425, .4)
+        How_To_Play_2 = Image(How_To_Play_2_IMG, 420, 425, .4)
         How_To_Play_Arrow_IMG = pygame.image.load('Assets/Icons/Arrow.png').convert_alpha()
-        How_To_Play_Arrow = Button(How_To_Play_Arrow_IMG, 300, 470, .2)
+        How_To_Play_Arrow = Image(How_To_Play_Arrow_IMG, 300, 470, .2)
 
         Algoritms_IMG = pygame.image.load('Assets/Icons/Algorithms.png').convert_alpha()
         Algoritms_Button = Button(Algoritms_IMG, 300, 330, .2)
@@ -70,7 +70,7 @@ class Game:
 
         ''' EXTRA IMAGES '''
         Work_IMG = pygame.image.load('Assets/Icons/Work.png').convert_alpha()
-        Work_Button = Button(Work_IMG, 480, 480, .25)
+        Work = Image(Work_IMG, 480, 480, .25)
 
         ''' LEVELS IMAGES '''
         L1_IMG = pygame.image.load('Assets/Levels/1.png').convert_alpha()
@@ -123,7 +123,12 @@ class Game:
         A_Star_H2_Switch = Button(Switch_OFF_IMG, 400, 470, .2)
 
         # Inicializa o Estado de Análise dos Algoritmos a ser usados
-        Algorithms = [Bfs_Switch.Atual_State(), Itr_Deep_Switch.Atual_State(), Greedy_Search_H1_Switch.Atual_State(), Greedy_Search_H2_Switch.Atual_State(),A_Star_H1_Switch.Atual_State(), A_Star_H2_Switch.Atual_State()]
+        Algorithms = [Bfs_Switch.Atual_State(),
+                      Itr_Deep_Switch.Atual_State(),
+                      Greedy_Search_H1_Switch.Atual_State(),
+                      Greedy_Search_H2_Switch.Atual_State(),
+                      A_Star_H1_Switch.Atual_State(),
+                      A_Star_H2_Switch.Atual_State()]
         
         ''' Menu Variables '''
         Menu = "Main"
@@ -131,7 +136,7 @@ class Game:
         while run:
 
             if Menu == "Main":
-                Main_Menu.Action(Screen)
+                Main_Menu.Display(Screen)
                 pygame.draw.rect(Screen, BLACK, (373, 230, 250, 90))
                 self.Write_On_Screen('Arial', " Klotski ", 80, BLUE, WHITE, True, (363, 220), Screen)
                 if Start_Button.Action(Screen):
@@ -177,9 +182,9 @@ class Game:
                 self.Write_On_Screen('Arial', f" (small red circles) ", 30, BLUE, WHITE, False, (240,300), Screen)
                 self.Write_On_Screen('Arial', f" in as few steps as possible ", 30, BLUE, WHITE, False, (190,345), Screen)
 
-                How_To_Play_Arrow.Action(Screen)
-                How_To_Play_1.Action(Screen)
-                How_To_Play_2.Action(Screen)
+                How_To_Play_Arrow.Display(Screen)
+                How_To_Play_1.Display(Screen)
+                How_To_Play_2.Display(Screen)
 
                 if Back_Button.Action(Screen):
                     Menu = "Options" 
@@ -235,7 +240,7 @@ class Game:
                 self.Write_On_Screen('Arial', " Under Guidance of: ", 40, WHITE, None, True, (65,430), Screen)
                 self.Write_On_Screen('Arial', " - Professor Luís Paulo Reis ", 30, WHITE, None, False, (90,490), Screen)
                 
-                Work_Button.Action(Screen)
+                Work.Display(Screen)
 
                 if Back_Button.Action(Screen):
                     Menu = "Options" 
