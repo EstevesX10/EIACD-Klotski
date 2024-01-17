@@ -1,5 +1,5 @@
 from Button import (Button)
-from Level import *
+from Level import (Level)
 from Constants import (
     WIDTH,
     HEIGHT,
