@@ -1,3 +1,4 @@
+# Interface Gráfica (Customização)
 
 N_COLS = 4
 N_ROWS = 5
