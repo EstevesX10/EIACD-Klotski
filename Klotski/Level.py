@@ -1,11 +1,11 @@
 import heapq
 import time
-from copy import deepcopy
-from os import system
+from copy import (deepcopy)
+from os import (system)
 
 import pygame
 
-from Button import Button
+from Button import (Button)
 from Constants import (
     BG_COLOR,
     BLACK,
