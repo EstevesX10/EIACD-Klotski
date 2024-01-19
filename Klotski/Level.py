@@ -376,8 +376,8 @@ class Level:
         self.Show_Solution(goal, screen)
         return True
 
-    def Get_Functions_Specs(self):
-        ''' Adds the Specifications of all Funtions '''
+    def Get_Functions_Stats(self):
+        ''' Adds the Statistics of all Funtions '''
         if self.Tests[0]:
             start = time.time()
             res, nodes_explored = Bfs_Node(self)
@@ -429,7 +429,7 @@ class Level:
     def Run(self, Screen):
         ''' Initialize Pygame '''
 
-        self.Get_Functions_Specs()
+        self.Get_Functions_Stats()
 
         ''' Buttons In Level '''
         Home_IMG = pygame.image.load('Assets/Icons/Home.png').convert_alpha()
@@ -467,7 +467,7 @@ class Level:
                     print("\n\t#----------------------------------------------#")
                     print("\t| Please Wait while the level is being Reseted |")
                     print("\t#----------------------------------------------#")
-                    self.Get_Functions_Specs()
+                    self.Get_Functions_Stats()
                     system('cls')
                     print("\n\t#-----------------------------#")
                     print("\t| Reset Succeded -> Try Again |")
@@ -628,7 +628,7 @@ def Current_Depth(node:TreeNode):
     return depth
 
 def Limited_Iterative_Deepening_Node(initial_state:Level, Depth_limit:int):
-    ''' Limited Iterative Deepening Search using TreeNodes '''
+    ''' -> Limited Iterative Deepening Search using TreeNodes '''
     # Para obter uma Iterative Deepening bastaria considerar a Profundidade Limite igual a infinito
     current_depth = 1
     nodes_explored = 0
@@ -653,7 +653,7 @@ def Limited_Iterative_Deepening_Node(initial_state:Level, Depth_limit:int):
             for new_state in current.state.New_States():
                 if new_state not in visited:
                     child = TreeNode(new_state, current)
-                    stack.insert(i,child)
+                    stack.insert(i, child)
                     i+=1
 
         current_depth += 1
@@ -669,7 +669,7 @@ def h1(state:Level):
     for i in range(len(final_pos)):
         dx = abs(current_pos[i][0] - final_pos[i][0])
         dy = abs(current_pos[i][1] - final_pos[i][1])
-        total +=  dx + dy
+        total +=  (dx + dy)
         
     return total
 
@@ -709,7 +709,7 @@ def h2(state:Level):
         if Adjacent_Piece(state, move):
             total +=  10*(dx + dy)
         else:
-            total += dx+dy
+            total += (dx + dy)
         
     return total
 
