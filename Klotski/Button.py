@@ -34,6 +34,10 @@ class Button:
 
         if self.rect.collidepoint(Mouse_Pos): # Se a posição do rato coincidir com a imagem do butão
 
+            if pygame.mouse.get_pressed()[0] == 0: # Se o rato não estiver a clicar dentro da região do butão, então podemos dar reset à qtd de contactos
+                self.clicked = False
+                self.NumContacts = 0
+
             if (self.NumContacts == 0): # Verifica se é o primeiro contacto com o butão [e guarda o estado do rato (pressionado ou não)]
                 self.FirstContact = (pygame.mouse.get_pressed()[0])
 
@@ -43,12 +47,9 @@ class Button:
                     Action = True
                 
             self.NumContacts += 1 # Se o Rato se mantiver de cima do butão incrementa-se a qtd de contactos
-            
+
         else: # Se a posição do rato estiver fora da imagem dá-se reset ao número de contactos
             self.NumContacts = 0
-
-        if pygame.mouse.get_pressed()[0] == 0:
-            self.clicked = False
 
         Tela.blit(self.image, (self.rect.x, self.rect.y))
         return Action
