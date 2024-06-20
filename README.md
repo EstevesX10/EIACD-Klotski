@@ -25,7 +25,7 @@
         <img src="https://img.shields.io/github/stars/EstevesX10/EIACD-Klotski?style=flat&logo=adafruit&logoColor=87CEFA&logoSize=auto&label=Stars&color=87CEFA">
     </a>
     <a href="https://github.com/EstevesX10/EIACD-Klotski/blob/main/requirements.txt">
-        <img src="https://img.shields.io/badge/Dependencies-requirements.txt-white?style=flat&logo=anaconda&logoColor=87CEFA&logoSize=auto&color=87CEFA"> 
+        <img src="https://img.shields.io/badge/Dependencies-Requirements.txt-white?style=flat&logo=anaconda&logoColor=87CEFA&logoSize=auto&color=87CEFA"> 
     </a>
 </div>
 
