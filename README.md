@@ -3,7 +3,7 @@
 </div>
 
 <p align="center" width="100%">
-    <img src="./Klotski/Assets/README/Puzzle.gif" width="30%" height="30%" />
+    <img src="./Klotski/Assets/README/Puzzle.gif" width="40%" height="40%" />
 </p>
 
 <div align="center">
