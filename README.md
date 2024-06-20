@@ -6,6 +6,29 @@
     <img src="./Klotski/Assets/README/Puzzle.gif" width="30%" height="30%" />
 </p>
 
+<div align="center">
+    <a>
+        <img src="https://img.shields.io/badge/Made%20with-Python-87CEFA?style=for-the-badge&logo=Python&logoColor=87CEFA">
+    </a>
+</div>
+
+<br/>
+
+<div align="center">
+    <a href="https://github.com/EstevesX10/EIACD-Klotski/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/EstevesX10/EIACD-Klotski?style=flat&logo=gitbook&logoColor=87CEFA&label=License&color=87CEFA">
+    </a>
+    <a href="">
+        <img src="https://img.shields.io/github/repo-size/EstevesX10/AI-EIACD-Klotski?style=flat&logo=googlecloudstorage&logoColor=87CEFA&logoSize=auto&label=Repository%20Size&color=87CEFA">
+    </a>
+    <a href="">
+        <img src="https://img.shields.io/github/stars/EstevesX10/EIACD-Klotski?style=flat&logo=adafruit&logoColor=87CEFA&logoSize=auto&label=Stars&color=87CEFA">
+    </a>
+    <a href="https://github.com/EstevesX10/EIACD-Klotski/blob/main/requirements.txt">
+        <img src="https://img.shields.io/badge/Dependencies-requirements.txt-white?style=flat&logo=anaconda&logoColor=87CEFA&logoSize=auto&color=87CEFA"> 
+    </a>
+</div>
+
 ## Introdução
 O **Klotski** trata-se de um jogo de quebra-cabeças que envolve mover uma ou mais peças num tabuleiro (5x4) de forma a alcançar um objetivo. Neste jogo, o objetivo é mover a **peça vermelha** ao longo do tabuleiro até alcançar a sua posição final. As peças podem apresentar tanto um formato como um tamanho variáveis, dispondo, assim, de  imensas **configurações** possíveis para o tabuleiro.
 
