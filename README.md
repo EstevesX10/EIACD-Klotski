@@ -19,7 +19,7 @@
         <img src="https://img.shields.io/github/license/EstevesX10/EIACD-Klotski?style=flat&logo=gitbook&logoColor=87CEFA&label=License&color=87CEFA">
     </a>
     <a href="">
-        <img src="https://img.shields.io/github/repo-size/EstevesX10/AI-EIACD-Klotski?style=flat&logo=googlecloudstorage&logoColor=87CEFA&logoSize=auto&label=Repository%20Size&color=87CEFA">
+        <img src="https://img.shields.io/github/repo-size/EstevesX10/EIACD-Klotski?style=flat&logo=googlecloudstorage&logoColor=87CEFA&logoSize=auto&label=Repository%20Size&color=87CEFA">
     </a>
     <a href="">
         <img src="https://img.shields.io/github/stars/EstevesX10/EIACD-Klotski?style=flat&logo=adafruit&logoColor=87CEFA&logoSize=auto&label=Stars&color=87CEFA">
